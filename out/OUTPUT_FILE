@@ -1,0 +1,580 @@
+Script started on Sun 12 Nov 2017 05:58:13 PM PST
+holmana3@linux-04:~/CS402/temp/Assignment 2/src$ ./ann
+=============================================
+
+Initializing Network...
+	Layers: 3
+	Layer Sizes: 784 100 10
+	Generating random weights in range [-1.00, 1.00]
+	Setting biases to 0
+	Learning rate: 0.01
+
+=============================================
+=============================================
+
+Loading data from ../data/train/train-images-idx3-ubyte
+Loading labels from ../data/train/train-labels-idx1-ubyte
+
+=============================================
+=============================================
+
+Loading data from ../data/test/t10k-images-idx3-ubyte
+Loading labels from ../data/test/t10k-labels-idx1-ubyte
+
+=============================================
+=============================================
+Training Network...
+Weights and biases saved to ../out/weights-biases-epoch every 20 epochs
+----------------------------------------------
+End of epoch 1
+Accuracy: 14184/60000(23.64%)
+Mean squared error: 0.0785963
+CPU Time: 197.471 seconds
+----------------------------------------------
+End of epoch 2
+Accuracy: 18250/60000(30.4167%)
+Mean squared error: 0.0740585
+CPU Time: 176.946 seconds
+----------------------------------------------
+End of epoch 3
+Accuracy: 20718/60000(34.53%)
+Mean squared error: 0.0711579
+CPU Time: 166.407 seconds
+----------------------------------------------
+End of epoch 4
+Accuracy: 23595/60000(39.325%)
+Mean squared error: 0.0684749
+CPU Time: 158.609 seconds
+----------------------------------------------
+End of epoch 5
+Accuracy: 28285/60000(47.1417%)
+Mean squared error: 0.0652562
+CPU Time: 148.953 seconds
+----------------------------------------------
+End of epoch 6
+Accuracy: 31956/60000(53.26%)
+Mean squared error: 0.0620482
+CPU Time: 142.833 seconds
+----------------------------------------------
+End of epoch 7
+Accuracy: 34609/60000(57.6817%)
+Mean squared error: 0.0590971
+CPU Time: 136.122 seconds
+----------------------------------------------
+End of epoch 8
+Accuracy: 35724/60000(59.54%)
+Mean squared error: 0.0566221
+CPU Time: 132.873 seconds
+----------------------------------------------
+End of epoch 9
+Accuracy: 36661/60000(61.1017%)
+Mean squared error: 0.0544703
+CPU Time: 131.983 seconds
+----------------------------------------------
+End of epoch 10
+Accuracy: 38902/60000(64.8367%)
+Mean squared error: 0.0523358
+CPU Time: 126.992 seconds
+----------------------------------------------
+End of epoch 11
+Accuracy: 40991/60000(68.3183%)
+Mean squared error: 0.050248
+CPU Time: 121.456 seconds
+----------------------------------------------
+End of epoch 12
+Accuracy: 42370/60000(70.6167%)
+Mean squared error: 0.0483132
+CPU Time: 115.083 seconds
+----------------------------------------------
+End of epoch 13
+Accuracy: 43201/60000(72.0017%)
+Mean squared error: 0.0465619
+CPU Time: 113.201 seconds
+----------------------------------------------
+End of epoch 14
+Accuracy: 43774/60000(72.9567%)
+Mean squared error: 0.0449977
+CPU Time: 111.188 seconds
+----------------------------------------------
+End of epoch 15
+Accuracy: 44651/60000(74.4183%)
+Mean squared error: 0.0435521
+CPU Time: 108.388 seconds
+----------------------------------------------
+End of epoch 16
+Accuracy: 45026/60000(75.0433%)
+Mean squared error: 0.0422468
+CPU Time: 106.846 seconds
+----------------------------------------------
+End of epoch 17
+Accuracy: 45546/60000(75.91%)
+Mean squared error: 0.0410504
+CPU Time: 105.487 seconds
+----------------------------------------------
+End of epoch 18
+Accuracy: 45714/60000(76.19%)
+Mean squared error: 0.0399691
+CPU Time: 105.12 seconds
+----------------------------------------------
+End of epoch 19
+Accuracy: 46037/60000(76.7283%)
+Mean squared error: 0.0389775
+CPU Time: 105.048 seconds
+----------------------------------------------
+End of epoch 20
+Accuracy: 46052/60000(76.7533%)
+Mean squared error: 0.0380812
+CPU Time: 104.759 seconds
+----------------------------------------------
+End of epoch 21
+Accuracy: 46205/60000(77.0083%)
+Mean squared error: 0.0372597
+CPU Time: 118.451 seconds
+----------------------------------------------
+End of epoch 22
+Accuracy: 46210/60000(77.0167%)
+Mean squared error: 0.0365113
+CPU Time: 119.013 seconds
+----------------------------------------------
+End of epoch 23
+Accuracy: 46375/60000(77.2917%)
+Mean squared error: 0.0357941
+CPU Time: 118.487 seconds
+----------------------------------------------
+End of epoch 24
+Accuracy: 47687/60000(79.4783%)
+Mean squared error: 0.0350163
+CPU Time: 115.737 seconds
+----------------------------------------------
+End of epoch 25
+Accuracy: 48759/60000(81.265%)
+Mean squared error: 0.0342276
+CPU Time: 111.665 seconds
+----------------------------------------------
+End of epoch 26
+Accuracy: 49526/60000(82.5433%)
+Mean squared error: 0.0334549
+CPU Time: 108.959 seconds
+----------------------------------------------
+End of epoch 27
+Accuracy: 49608/60000(82.68%)
+Mean squared error: 0.0327327
+CPU Time: 105.573 seconds
+----------------------------------------------
+End of epoch 28
+Accuracy: 50110/60000(83.5167%)
+Mean squared error: 0.0320361
+CPU Time: 105.97 seconds
+----------------------------------------------
+End of epoch 29
+Accuracy: 50498/60000(84.1633%)
+Mean squared error: 0.0313672
+CPU Time: 107.184 seconds
+----------------------------------------------
+End of epoch 30
+Accuracy: 50721/60000(84.535%)
+Mean squared error: 0.0307315
+CPU Time: 102.916 seconds
+----------------------------------------------
+End of epoch 31
+Accuracy: 50835/60000(84.725%)
+Mean squared error: 0.0301322
+CPU Time: 105.878 seconds
+----------------------------------------------
+End of epoch 32
+Accuracy: 50942/60000(84.9033%)
+Mean squared error: 0.0295655
+CPU Time: 102.935 seconds
+----------------------------------------------
+End of epoch 33
+Accuracy: 50853/60000(84.755%)
+Mean squared error: 0.0290351
+CPU Time: 107.162 seconds
+----------------------------------------------
+End of epoch 34
+Accuracy: 51330/60000(85.55%)
+Mean squared error: 0.028517
+CPU Time: 103.856 seconds
+----------------------------------------------
+End of epoch 35
+Accuracy: 51617/60000(86.0283%)
+Mean squared error: 0.0280175
+CPU Time: 101.349 seconds
+----------------------------------------------
+End of epoch 36
+Accuracy: 51532/60000(85.8867%)
+Mean squared error: 0.0275479
+CPU Time: 105.828 seconds
+----------------------------------------------
+End of epoch 37
+Accuracy: 51487/60000(85.8117%)
+Mean squared error: 0.0271067
+CPU Time: 102.607 seconds
+----------------------------------------------
+End of epoch 38
+Accuracy: 51326/60000(85.5433%)
+Mean squared error: 0.0266933
+CPU Time: 100.006 seconds
+----------------------------------------------
+End of epoch 39
+Accuracy: 51509/60000(85.8483%)
+Mean squared error: 0.0262935
+CPU Time: 99.8039 seconds
+----------------------------------------------
+End of epoch 40
+Accuracy: 51736/60000(86.2267%)
+Mean squared error: 0.0259059
+CPU Time: 100.265 seconds
+----------------------------------------------
+End of epoch 41
+Accuracy: 51743/60000(86.2383%)
+Mean squared error: 0.0255364
+CPU Time: 104.345 seconds
+----------------------------------------------
+End of epoch 42
+Accuracy: 51932/60000(86.5533%)
+Mean squared error: 0.0251794
+CPU Time: 97.2803 seconds
+----------------------------------------------
+End of epoch 43
+Accuracy: 51994/60000(86.6567%)
+Mean squared error: 0.0248361
+CPU Time: 102.687 seconds
+----------------------------------------------
+End of epoch 44
+Accuracy: 52090/60000(86.8167%)
+Mean squared error: 0.0245057
+CPU Time: 95.9526 seconds
+----------------------------------------------
+End of epoch 45
+Accuracy: 52159/60000(86.9317%)
+Mean squared error: 0.0241879
+CPU Time: 93.6319 seconds
+----------------------------------------------
+End of epoch 46
+Accuracy: 52134/60000(86.89%)
+Mean squared error: 0.0238847
+CPU Time: 89.8007 seconds
+----------------------------------------------
+End of epoch 47
+Accuracy: 52341/60000(87.235%)
+Mean squared error: 0.0235884
+CPU Time: 90.1095 seconds
+----------------------------------------------
+End of epoch 48
+Accuracy: 52525/60000(87.5417%)
+Mean squared error: 0.0232999
+CPU Time: 89.9633 seconds
+----------------------------------------------
+End of epoch 49
+Accuracy: 52552/60000(87.5867%)
+Mean squared error: 0.0230226
+CPU Time: 90.3206 seconds
+----------------------------------------------
+End of epoch 50
+Accuracy: 52669/60000(87.7817%)
+Mean squared error: 0.0227529
+CPU Time: 89.941 seconds
+----------------------------------------------
+End of epoch 51
+Accuracy: 52595/60000(87.6583%)
+Mean squared error: 0.0224952
+CPU Time: 89.925 seconds
+----------------------------------------------
+End of epoch 52
+Accuracy: 52855/60000(88.0917%)
+Mean squared error: 0.0222417
+CPU Time: 91.9004 seconds
+----------------------------------------------
+End of epoch 53
+Accuracy: 52660/60000(87.7667%)
+Mean squared error: 0.0220016
+CPU Time: 90.1302 seconds
+----------------------------------------------
+End of epoch 54
+Accuracy: 52754/60000(87.9233%)
+Mean squared error: 0.0217684
+CPU Time: 90.0835 seconds
+----------------------------------------------
+End of epoch 55
+Accuracy: 52771/60000(87.9517%)
+Mean squared error: 0.0215433
+CPU Time: 89.9034 seconds
+----------------------------------------------
+End of epoch 56
+Accuracy: 52621/60000(87.7017%)
+Mean squared error: 0.0213303
+CPU Time: 91.6973 seconds
+----------------------------------------------
+End of epoch 57
+Accuracy: 52784/60000(87.9733%)
+Mean squared error: 0.0211211
+CPU Time: 92.2085 seconds
+----------------------------------------------
+End of epoch 58
+Accuracy: 52902/60000(88.17%)
+Mean squared error: 0.0209161
+CPU Time: 89.9601 seconds
+----------------------------------------------
+End of epoch 59
+Accuracy: 52996/60000(88.3267%)
+Mean squared error: 0.0207152
+CPU Time: 92.0582 seconds
+----------------------------------------------
+End of epoch 60
+Accuracy: 53066/60000(88.4433%)
+Mean squared error: 0.0205194
+CPU Time: 90.1479 seconds
+----------------------------------------------
+End of epoch 61
+Accuracy: 53181/60000(88.635%)
+Mean squared error: 0.0203278
+CPU Time: 89.6227 seconds
+----------------------------------------------
+End of epoch 62
+Accuracy: 53325/60000(88.875%)
+Mean squared error: 0.0201396
+CPU Time: 90.1216 seconds
+----------------------------------------------
+End of epoch 63
+Accuracy: 53202/60000(88.67%)
+Mean squared error: 0.0199602
+CPU Time: 90.1143 seconds
+----------------------------------------------
+End of epoch 64
+Accuracy: 53050/60000(88.4167%)
+Mean squared error: 0.0197892
+CPU Time: 89.9541 seconds
+----------------------------------------------
+End of epoch 65
+Accuracy: 53152/60000(88.5867%)
+Mean squared error: 0.0196215
+CPU Time: 90.2105 seconds
+----------------------------------------------
+End of epoch 66
+Accuracy: 53151/60000(88.585%)
+Mean squared error: 0.0194584
+CPU Time: 91.8364 seconds
+----------------------------------------------
+End of epoch 67
+Accuracy: 53128/60000(88.5467%)
+Mean squared error: 0.0193006
+CPU Time: 89.8382 seconds
+----------------------------------------------
+End of epoch 68
+Accuracy: 53202/60000(88.67%)
+Mean squared error: 0.0191465
+CPU Time: 92.0511 seconds
+----------------------------------------------
+End of epoch 69
+Accuracy: 53306/60000(88.8433%)
+Mean squared error: 0.0189946
+CPU Time: 89.8986 seconds
+----------------------------------------------
+End of epoch 70
+Accuracy: 53321/60000(88.8683%)
+Mean squared error: 0.0188467
+CPU Time: 90.316 seconds
+----------------------------------------------
+End of epoch 71
+Accuracy: 53345/60000(88.9083%)
+Mean squared error: 0.0187023
+CPU Time: 89.6332 seconds
+----------------------------------------------
+End of epoch 72
+Accuracy: 53470/60000(89.1167%)
+Mean squared error: 0.0185599
+CPU Time: 90.301 seconds
+----------------------------------------------
+End of epoch 73
+Accuracy: 53290/60000(88.8167%)
+Mean squared error: 0.0184239
+CPU Time: 89.976 seconds
+----------------------------------------------
+End of epoch 74
+Accuracy: 53388/60000(88.98%)
+Mean squared error: 0.0182899
+CPU Time: 89.9906 seconds
+----------------------------------------------
+End of epoch 75
+Accuracy: 53490/60000(89.15%)
+Mean squared error: 0.0181577
+CPU Time: 90.0027 seconds
+----------------------------------------------
+End of epoch 76
+Accuracy: 53316/60000(88.86%)
+Mean squared error: 0.0180318
+CPU Time: 90.0035 seconds
+----------------------------------------------
+End of epoch 77
+Accuracy: 53629/60000(89.3817%)
+Mean squared error: 0.0179043
+CPU Time: 89.8657 seconds
+----------------------------------------------
+End of epoch 78
+Accuracy: 53681/60000(89.4683%)
+Mean squared error: 0.0177792
+CPU Time: 89.9556 seconds
+----------------------------------------------
+End of epoch 79
+Accuracy: 53745/60000(89.575%)
+Mean squared error: 0.017656
+CPU Time: 90.1528 seconds
+----------------------------------------------
+End of epoch 80
+Accuracy: 53787/60000(89.645%)
+Mean squared error: 0.0175353
+CPU Time: 89.7779 seconds
+----------------------------------------------
+End of epoch 81
+Accuracy: 53666/60000(89.4433%)
+Mean squared error: 0.0174191
+CPU Time: 90.0223 seconds
+----------------------------------------------
+End of epoch 82
+Accuracy: 53581/60000(89.3017%)
+Mean squared error: 0.0173072
+CPU Time: 90.1116 seconds
+----------------------------------------------
+End of epoch 83
+Accuracy: 53516/60000(89.1933%)
+Mean squared error: 0.0171993
+CPU Time: 89.9006 seconds
+----------------------------------------------
+End of epoch 84
+Accuracy: 53383/60000(88.9717%)
+Mean squared error: 0.0170959
+CPU Time: 89.9478 seconds
+----------------------------------------------
+End of epoch 85
+Accuracy: 53300/60000(88.8333%)
+Mean squared error: 0.0169959
+CPU Time: 90.2787 seconds
+----------------------------------------------
+End of epoch 86
+Accuracy: 53321/60000(88.8683%)
+Mean squared error: 0.0168979
+CPU Time: 89.9064 seconds
+----------------------------------------------
+End of epoch 87
+Accuracy: 53450/60000(89.0833%)
+Mean squared error: 0.0168006
+CPU Time: 89.9755 seconds
+----------------------------------------------
+End of epoch 88
+Accuracy: 53718/60000(89.53%)
+Mean squared error: 0.0167011
+CPU Time: 89.8084 seconds
+----------------------------------------------
+End of epoch 89
+Accuracy: 53689/60000(89.4817%)
+Mean squared error: 0.0166044
+CPU Time: 90.132 seconds
+----------------------------------------------
+End of epoch 90
+Accuracy: 53630/60000(89.3833%)
+Mean squared error: 0.0165108
+CPU Time: 89.8258 seconds
+----------------------------------------------
+End of epoch 91
+Accuracy: 53853/60000(89.755%)
+Mean squared error: 0.0164161
+CPU Time: 90.3336 seconds
+----------------------------------------------
+End of epoch 92
+Accuracy: 53852/60000(89.7533%)
+Mean squared error: 0.0163231
+CPU Time: 90.0386 seconds
+----------------------------------------------
+End of epoch 93
+Accuracy: 53918/60000(89.8633%)
+Mean squared error: 0.0162312
+CPU Time: 89.7618 seconds
+----------------------------------------------
+End of epoch 94
+Accuracy: 54070/60000(90.1167%)
+Mean squared error: 0.0161393
+CPU Time: 89.8703 seconds
+----------------------------------------------
+End of epoch 95
+Accuracy: 54014/60000(90.0233%)
+Mean squared error: 0.0160503
+CPU Time: 90.0847 seconds
+----------------------------------------------
+End of epoch 96
+Accuracy: 54146/60000(90.2433%)
+Mean squared error: 0.0159612
+CPU Time: 90.1461 seconds
+----------------------------------------------
+End of epoch 97
+Accuracy: 54167/60000(90.2783%)
+Mean squared error: 0.0158736
+CPU Time: 89.8579 seconds
+----------------------------------------------
+End of epoch 98
+Accuracy: 54063/60000(90.105%)
+Mean squared error: 0.0157892
+CPU Time: 90.1004 seconds
+----------------------------------------------
+End of epoch 99
+Accuracy: 54226/60000(90.3767%)
+Mean squared error: 0.0157043
+CPU Time: 90.0825 seconds
+----------------------------------------------
+End of epoch 100
+Accuracy: 54274/60000(90.4567%)
+Mean squared error: 0.0156201
+CPU Time: 85.3174 seconds
+----------------------------------------------
+End of epoch 101
+Accuracy: 54329/60000(90.5483%)
+Mean squared error: 0.0155369
+CPU Time: 98.5382 seconds
+----------------------------------------------
+End of epoch 102
+Accuracy: 54361/60000(90.6017%)
+Mean squared error: 0.0154551
+CPU Time: 90.2225 seconds
+----------------------------------------------
+End of epoch 103
+Accuracy: 54465/60000(90.775%)
+Mean squared error: 0.0153734
+CPU Time: 91.6963 seconds
+----------------------------------------------
+End of epoch 104
+Accuracy: 54402/60000(90.67%)
+Mean squared error: 0.015294
+CPU Time: 89.9491 seconds
+----------------------------------------------
+End of epoch 105
+Accuracy: 54281/60000(90.4683%)
+Mean squared error: 0.0152176
+CPU Time: 87.88 seconds
+----------------------------------------------
+End of epoch 106
+Accuracy: 54276/60000(90.46%)
+Mean squared error: 0.0151427
+CPU Time: 88.6514 seconds
+----------------------------------------------
+End of epoch 107
+Accuracy: 54458/60000(90.7633%)
+Mean squared error: 0.0150671
+CPU Time: 89.558 seconds
+----------------------------------------------
+End of epoch 108
+Accuracy: 54469/60000(90.7817%)
+Mean squared error: 0.0149927
+CPU Time: 88.7619 seconds
+---------------------------------------------
+
+Training Complete...Epochs: 108
+Total CPU Time: 10935.8 seconds
+=============================================
+=============================================
+Testing Network...
+Finished Testing
+Accuracy: 91394/10000(91.394%)
+holmana3@linux-04:~/CS402/temp/Assignment 2/src$ exit
+exit
+
+Script done on Sun 12 Nov 2017 09:00:58 PM PST
