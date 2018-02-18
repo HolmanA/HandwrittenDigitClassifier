@@ -2,7 +2,7 @@
 This program represents a neural network specialized in identifying hand written numerical digits. The program opens and parses a data file and accompanying expected value file, generates an initial random network, trains the network on the training data, then tests itself on a set of test data. This is a simple neural network that uses backpropagation learning with a sigmoid activation function.
 This program is setup to specifically run with the included training and test data, other data may not be compatible even if it is of a similar format. Various network parameters can be changed in the settings.cpp file. Any changes to this file require that the program be recompiled for changes to take effect. This network is set up to specifically run with 784 input neurons and 10 output neurons in order to work with the provided data set. The network should have at least one hidden layer.
 A more in-depth report on this program including references can be found in the file:
-	report.txt
+	report.md
 
 ## How to compile
 You must first change directories to 'src' in order to compile the program.
